@@ -1,0 +1,102 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+/* body section */
+
+
+/* header section start */
+
+header {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h2 {
+  font-weight: 400;
+  color: rgb(68, 68, 238);
+}
+
+.searchbar {
+  width: 70%;
+  height: 40px;
+  margin-top: 1.5rem;
+  font-size: 18px;
+  text-align: left;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* header section end */
+
+/* main section start */
+
+main {
+  max-width: 1280px;
+}
+
+#main-title {
+  font-size: 20px;
+  margin-left: 5rem;
+}
+
+.faq-topics {
+  width: 60%;
+  min-height: 60vh;
+  margin-top: 3rem;
+}
+
+.list-faq {
+  list-style-type: none;
+  text-align: left;
+  cursor: default;
+  position: relative;
+}
+
+.list-faq li {
+  text-align: left;
+  margin-left: 0;
+  margin-top: 0.5em;
+  font-size: 20px;
+}
+
+.list-faq li a {
+  text-decoration: none;
+}
+
+
+/* main section end */
+
+/* footer section start */
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5rem;
+  }
+  
+  /* footer section end */
